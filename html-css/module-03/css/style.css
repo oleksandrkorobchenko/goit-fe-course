@@ -1,0 +1,186 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.bgimg {
+    background-image: url(../fon/fon.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wraper {
+    width: 480px;
+    background-color: white;
+    padding: 60px 40px;
+    margin: 200px auto 120px;
+    display: block;
+
+}
+
+.Agency-profile {
+    display: block;
+}
+
+.AP-Size {
+    text-transform: uppercase;
+    font-size: 25px;
+    color:  #263555;
+    font-weight: 300;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.Plane {
+    padding-bottom: 30px;
+}
+
+.Gellentesque {
+    font-family: Arial;
+    color:  #263555;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.AP-Text {
+    font-family: Arial;
+    color:  #4e5050;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.OP-Size {
+    text-transform: uppercase;
+    color:  #263555;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.h4-for-OP {
+    font-family: Arial;
+    color:  #263555;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.p-for-OP {
+    font-family: Arial;
+    color:  #4e5050;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.p-for-OP-2 {
+    font-family: Arial;
+    color:  #4e5050;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.Divider {
+    padding-bottom: 50px;
+}
+
+.WWO {
+    text-transform: uppercase;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color:  #263555;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.h4-for-WWO {
+    font-family: Arial;
+    color:  #263555;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.p-for-WWO {
+    font-family: Arial;
+    color:  #4e5050;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.box1 {
+    margin-top: 10px;
+    margin-left: 50px;
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.box2 {
+    display: inline-block;
+    width: 150px;
+    vertical-align: top;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.block {
+    text-align: center;
+}
+
+.№1 {
+    font-family: Arial;
+    color:  #263555;
+    width: 180px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.№2 {
+    font-family: Arial;
+    color:  #263555;
+    width: 180px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.for-block {
+    margin-bottom: 20px;
+}
+
+
+
+
