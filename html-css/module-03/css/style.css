@@ -1,8 +1,7 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Pathway Gothic One', sans-serif;
+    padding: 0;
+	margin:0;
+	box-sizing: border-box;
 }
 
 .bgimg {
@@ -10,143 +9,87 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 240px;
+	padding-bottom: 540px;
 }
 
 .wraper {
     width: 480px;
+	margin: auto;
+	padding: 60px 40px;
     background-color: white;
-    padding: 60px 40px;
-    margin: 200px auto 120px;
-    display: block;
-
 }
 
 .Agency-profile {
-    display: block;
+    margin-bottom: 30px;
 }
 
-.AP-Size {
+.h2 {
+    font-family: 'Pathway Gothic One', sans-serif;
+	color: #263555;
+	font-size: 25px;
     text-transform: uppercase;
-    font-size: 25px;
-    color:  #263555;
-    font-weight: 300;
     text-align: left;
-    padding-bottom: 30px;
+    font-weight: 300;
+	margin-bottom: 30px;
 }
 
 .Plane {
-    padding-bottom: 30px;
-}
-
-.Gellentesque {
-    font-family: Arial;
-    color:  #263555;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 19px;
-    text-align: left;
-    padding-bottom: 20px;
-}
-
-.AP-Text {
-    font-family: Arial;
-    color:  #4e5050;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 17px;
-    text-align: left;
-    padding-bottom: 50px;
-}
-
-.OP-Size {
-    text-transform: uppercase;
-    color:  #263555;
-    font-size: 25px;
-    font-weight: 300;
-    text-align: left;
-    padding-bottom: 30px;
-}
-
-.h4-for-OP {
-    font-family: Arial;
-    color:  #263555;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 19px;
-    text-align: left;
-    padding-bottom: 20px;
-}
-
-.p-for-OP {
-    font-family: Arial;
-    color:  #4e5050;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 17px;
-    text-align: left;
-    padding-bottom: 30px;
-}
-
-.p-for-OP-2 {
-    font-family: Arial;
-    color:  #4e5050;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 17px;
-    text-align: left;
-    padding-bottom: 50px;
-}
-
-.Divider {
-    padding-bottom: 50px;
-}
-
-.WWO {
-    text-transform: uppercase;
-    font-family: 'Pathway Gothic One', sans-serif;
-    color:  #263555;
-    font-size: 25px;
-    font-weight: 300;
-    text-align: left;
-    padding-bottom: 25px;
-}
-
-.h4-for-WWO {
-    font-family: Arial;
-    color:  #263555;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 19px;
-    text-align: left;
-    padding-bottom: 20px;
-}
-
-.p-for-WWO {
-    font-family: Arial;
-    color:  #4e5050;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 17px;
-    text-align: left;
-    padding-bottom: 25px;
-}
-
-.box1 {
-    margin-top: 10px;
-    margin-left: 50px;
     display: inline-block;
-    width: 200px;
-    vertical-align: top;
+    margin-bottom: 30px;
+}
+
+.h4 {
+    font-family: Arial;
+    color:  #263555;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.P1 {
+    font-family: Arial;
+    color:  #4e5050;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+}
+
+.P2 {
+    font-family: Arial;
+    color:  #4e5050;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.P2-1 {
+    font-family: Arial;
+    color:  #4e5050;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
     text-align: left;
     margin-bottom: 50px;
 }
 
-.box2 {
-    display: inline-block;
-    width: 150px;
-    vertical-align: top;
+.Demarcation-line {
+    margin-bottom: 50px;
+}
+
+.P3 {
+    font-family: Arial;
+    color:  #4e5050;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
     text-align: left;
-    margin-left: 30px;
+    padding-bottom: 25px;
 }
 
 .block {
@@ -180,7 +123,3 @@
 .for-block {
     margin-bottom: 20px;
 }
-
-
-
-
