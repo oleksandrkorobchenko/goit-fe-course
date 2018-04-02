@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.bgimg{
+	background-color: #808080;
+	background-image: url(../img/page-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	padding-top: 45px;
+	padding-bottom: 70px;
+}
+.wrapper{
+	width: 80%;
+	margin: auto;
+	padding: 117px 61px;
+	background-color: #ffffff;
+}
+
+.upper{
+	border-bottom: 1px solid grey;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+.one{
+	display: inline-block;
+	width: 70%;
+	vertical-align: top;
+}
+.caption-one{
+	font-family: 'Pathway Gothic One', sans-serif;
+	color: #263555;
+	font-size: 19px;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+.caption-two{
+	font-family: 'Pathway Gothic One', sans-serif;
+	color: #263555;
+	font-size: 17px;
+	margin-bottom: 20px;
+}
+.text-one{
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	margin-bottom: 20px;
+	color: #4e5050;
+}
+.text-two{
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	margin-bottom: 40px;
+	color: #4e5050;
+}
+.plane{
+	float: left;
+	display: inline-block;
+	margin-right: 10px;
+}
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.two{
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+	margin-left: 20px;
+	counter-reset: counter;
+}
+.list-item{
+	counter-increment: counter;
+	vertical-align: top;
+	display: inline-block;
+}
+.list-item::before{
+	content: counter(counter);
+	display: inline-block;
+	background-color: #38afe5;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #ffffff;
+	border-radius: 50%;
+	border: 1px solid #3d98c2;
+	margin-right: 5px;
+}
+.caption-three{
+	font-family: 'Pathway Gothic One', sans-serif;
+	color: #263555;
+	font-size: 19px;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+.caption-four{
+	font-family: 'Pathway Gothic One', sans-serif;
+	color: #263555;
+	font-size: 17px;
+	margin-bottom: 20px;
+}
+.text-three{
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	color: #4e5050;
+	margin-bottom: 20px;
+}
+.article{
+	width: 70%;
+	vertical-align: top;
+	display: inline-block;
+}
+
+
+.three{
+	display: inline-block;
+	width: 70%;
+	vertical-align: top;
+}
+.list-block{
+	column-count: 2;
+}
+.list-styles{
+	font-family: 'Pathway Gothic One', sans-serif;
+	color: #263555;
+	font-size: 17px;
+	margin-bottom: 20px;
+}
+.list-styles::before{
+	content: '→';
+	color: #38afe5;
+	padding-right: 10px;
+}
+.caption-five{
+	font-family: 'Pathway Gothic One', sans-serif;
+	color: #263555;
+	font-size: 19px;
+	text-transform: uppercase;
+	margin-bottom: 65px;
+}
+.caption-six{
+	font-family: 'Pathway Gothic One', sans-serif;
+	color: #263555;
+	font-size: 17px;
+	margin-bottom: 20px;
+}
+.text-four {
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	margin-bottom: 35px;
+	color: #4e5050;
+}
+
+
+.four{
+	display: inline-block;
+	width: 25%;
+	margin-left: 20px;
+	vertical-align: top;
+}
+.caption-seven {
+	font-family: 'Pathway Gothic One', sans-serif;
+	color: #263555;
+	font-size: 19px;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+.wrapperarticle{
+	background-color: #fcfafa;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	vertical-align: center;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	color: #263555;
+	border: 1px solid #dfdcdc;
+	border-radius: 7%;
+	padding-top: 40px;
+}
+.text-five{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #263555;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.text-six{
+	margin-top: 20px;
+	color: #263555;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	text-align: center;
+}
+
