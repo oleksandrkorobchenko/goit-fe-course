@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.header {
+    background-image: url(../img/Object.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color: #1a1915;
+    padding: 19px 0 138px;
+}
+.container {
+    min-width: 320px;
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: auto;
+}
+nav {
+    margin-bottom: 115px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+}
+.menu-item {
+    padding: 12px 18px;
+    border: 2px solid transparent;
+}
+.menu-item:hover {
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+.menu-link {
+    color: #fff;
+    font-family: "Montserrat Bold", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.logo {
+    text-align: center;
+}
+.logo-text {
+    font-family: "Montserrat Bold", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.header-top {
+    margin-bottom: 38px;
+}
+.title {
+    font-family: "Montserrat Bold", sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.sub-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+.find-partner {
+    display: block;
+    font-family: "Montserrat Bold", sans-serif;
+    font-size: 14px;
+    background-color: #ff4e50;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 14px 0;
+    margin: 0 auto;
+}
+.main {
+    padding: 70px 0 57px;
+}
+.title-main {
+    font-family: "Montserrat Bold", sans-serif;
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.box-article {
+    text-align: center;
+}
+.img-box {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    margin: 0 auto 20px;
+}
+.img {
+    display: inline-block;
+}
+.img-icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+.tv {
+    background-color: #ff4e50;
+    padding: 7px;
+}
+.bottle {
+    background-color: #ffa507;
+    padding: 8px 10px;
+}
+.tea {
+    background-color: #1cd7ad;
+    padding: 7px;
+}
+.plane {
+    background-color: #4e73db;
+    padding: 8px 7px;
+}
+.article-title {
+    font-family: "Montserrat Bold", sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.article {
+    margin-bottom: 20px;
+}
+.article:last-child {
+    margin-bottom: 0;
+}
+.article-text {
+    font-family: "Roboto Light", sans-serif;
+    font-size: 14px;
+    color: #666;
+    flex-wrap: lighter;
+}
+.other-partners {
+    display: block;
+    font-family: "Montserrat Bold", sans-serif;
+    font-size: 14px;
+    color: #ff4e50;
+    text-align: center;
+    padding: 13px 0;
+    margin: 30px auto 0;
+    border: 2px solid #ff4e50;
+    border-radius: 20px;
+}
+@media (min-width: 768px) {
+    .header-top {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    .logo {
+        padding-top: 12px;
+    }
+    .title {
+        font-size: 52px;
+        width: 472px;
+        margin: 0 auto 40px;
+    }
+    .sub-title {
+        margin-bottom: 36px;
+        font-size: 24px;
+    }
+    .main {
+        padding-bottom: 40px;
+    }
+    .title-main {
+        margin-bottom: 36px;
+    }
+    .box-article {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .article {
+        flex-basis: 35%;
+    }
+    .article:nth-child(2n+2) {
+        margin-bottom: 0;
+    }
+    .find-partner {
+        width: 225px;
+    }
+    .other-partners {
+        width: 193px;
+    }
+    .top {
+        order: -1;
+    }
+}
+@media (min-width: 960px){
+    .main {
+        padding-bottom: 75px;
+    }
+    .article {
+        flex-wrap: none;
+        flex-basis: 24%;
+        margin-bottom: 0;
+    }
+}
